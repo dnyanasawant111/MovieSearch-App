@@ -1,0 +1,57 @@
+.Header{
+  padding: 30px ;
+  text-align: center;
+  
+  background-image: url("https://cdn.quotesgram.com/img/68/73/1546335789-Grungy_tumblr_backgrounds__2_.jpg");
+  background-repeat: no repeat;
+
+}
+.movie{
+  
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  grid-column-gap: 20px;
+  grid-row-gap:20px;
+  padding: 10px;
+  
+}
+.label{
+  color:red;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+
+
+.img{
+  max-width: 55%;
+  width: 100%;
+ border: 8px solid tomato
+}
+
+
+.details{
+  color:black;
+}
+@media screen and (min-width: 694px) and (max-width: 915px) {
+  .movie {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 652px) and (max-width: 693px) {
+  .movie {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 651px) {
+  .movie {
+    max-width: 100%;
+    margin: auto;
+  }
+}
+
+ img:hover {
+  transform: scale(1.25);
+ 
+  
+}
+
